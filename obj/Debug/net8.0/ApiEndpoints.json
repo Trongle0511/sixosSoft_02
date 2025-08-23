@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SixOs_Soft_demo_01.Controllers.C0403.C0403_API.API_HoatDongKham",
+    "Method": "GetHoatDongKhamBenhPost",
+    "RelativePath": "api/hoat_dong_kham",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SixOs_Soft_demo_01.Models.M0403.DTO0403.HoatDongKhamRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

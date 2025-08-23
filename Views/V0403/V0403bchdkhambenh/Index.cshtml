@@ -1,0 +1,186 @@
+﻿@{
+	ViewData["NonSixOs"] = true;
+}
+
+<link rel="stylesheet" href="./dist/css/CSS0403/CSS0403Styles.css">
+<link rel="stylesheet" href="~/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="~/dist/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+<link href="~/dist/lib/toastr/build/toastr.min.css" rel="stylesheet" />
+
+<div class="card p-1">
+	<div class="container_goiKham">
+		<div class="container_goiKham left">
+			<div class="row" style="padding:0;">
+				<div style="width: 100%; padding:0;">
+					<label class="form-label">Giai đoạn</label>
+					<select id="selectGiaiDoan" class="form-select">
+						<option value="nam">Năm</option>
+						<option value="quy">Quý</option>
+						<option value="thang">Tháng</option>
+						<option value="ngay" selected>Ngày</option>
+					</select>
+				</div>
+			</div>
+			<div id="selectContainer">
+				<div class="row">
+					<!-- Năm -->
+					<div class="col-md-6 mb-3 ps-0 d-none" id="yearGroup">
+						<label class="form-label">Năm</label>
+						<select id="yearSelect" class="form-select" style="max-height: 150px; overflow-y: auto;">
+							<!-- Các năm sẽ được thêm vào đây bằng JavaScript -->
+						</select>
+					</div>
+
+					<!-- Quý -->
+					<div class="col-md-6 mb-3 pe-0 d-none" id="quarterGroup">
+						<label class="form-label">Quý</label>
+						<select id="selectQuarter" class="form-select">
+							<option value="1">Quý 1</option>
+							<option value="2">Quý 2</option>
+							<option value="3">Quý 3</option>
+							<option value="4">Quý 4</option>
+						</select>
+					</div>
+
+					<!-- Tháng -->
+					<div class="col-md-6 mb-3 pe-0 d-none" id="monthGroup">
+						<label class="form-label">Tháng</label>
+						<select id="selectMonth" class="form-select">
+							<option value="1">Tháng 1</option>
+							<option value="2">Tháng 2</option>
+							<option value="3">Tháng 3</option>
+							<option value="4">Tháng 4</option>
+							<option value="5">Tháng 5</option>
+							<option value="6">Tháng 6</option>
+							<option value="7">Tháng 7</option>
+							<option value="8">Tháng 8</option>
+							<option value="9">Tháng 9</option>
+							<option value="10">Tháng 10</option>
+							<option value="11">Tháng 11</option>
+							<option value="12">Tháng 12</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="padding:0;">
+				<div style="width: 100%;padding:0;">
+					<label class="form-label">Từ ngày</label>
+					<div class="input-group">
+						<input type="text" class="form-control date-input" id="ngayTuNgay" name="TuNgay"
+							value="@DateTime.Now.ToString("dd-MM-yyyy")" placeholder="dd-mm-yyyy" autocomplete="off" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="padding:0;">
+				<div style="width: 100%;padding:0;">
+					<label class="form-label">Đến ngày</label>
+					<div class="input-group">
+						<input type="text" class="form-control date-input" id="denNgay" name="DenNgay"
+							value="@DateTime.Now.ToString("dd-MM-yyyy")" placeholder="dd-mm-yyyy" autocomplete="off" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="padding:0;">
+				<label style="padding:0;">
+					<button id="btnFilter" class="btn btn-outline-primary mb-3">
+						<i class="bi bi-funnel"></i> Lọc danh sách
+					</button>
+				</label>
+			</div>
+
+			<div class="row export-buttons">
+				<button id="btnExportPDF" class="btn btn-outline-danger mb-3" @(ViewBag.quyenVaiTro.Xuat ? "" :
+																					  "disabled")>
+					<i class="bi bi-file-earmark-pdf"></i> Xuất PDF
+				</button>
+				<button id="btnExportExcel" class="btn btn-outline-success mb-3" @(ViewBag.quyenVaiTro.Xuat ? "" :
+																						 "disabled")>
+					<i class="bi bi-file-earmark-excel"></i> Xuất Excel
+				</button>
+			</div>
+		</div>
+		<div class="container_goiKham right">
+			<!-- Thêm spinner -->
+			<div id="loadingSpinner" class="text-center" style="display: none; margin: 20px 0;">
+				<div class="spinner-border text-primary" role="status">
+					<span class="visually-hidden">Loading...</span>
+				</div>
+				<p>Đang tải dữ liệu...</p>
+			</div>
+
+
+			<div class="table-wrapper">
+				<table id="tblHoatDongKham" style="width:98%; margin: auto; table-layout: fixed;" cellpadding="8">
+					<thead>
+						<tr>
+							<th rowspan="3">STT</th>
+							<th rowspan="3" class="col-center">Dịch vụ</th>
+							<th colspan="7">Số lần khám</th>
+							<th rowspan="3">Số người bệnh vào viện</th>
+							<th rowspan="3">Số người bệnh chuyển viện</th>
+							<th colspan="4">Điều trị ngoại trú</th>
+						</tr>
+						<tr>
+							<th rowspan="2">Tổng số</th>
+							<th colspan="6" class="col-center">Trong đó</th>
+							<th rowspan="2">Số người bệnh</th>
+							<th rowspan="2">YHCT</th>
+							<th rowspan="2">TE&lt;6tuổi</th>
+							<th rowspan="2">Số ngày</th>
+						</tr>
+						<tr>
+							<th>YHCT</th>
+							<th>TE&lt;6tuổi</th>
+							<th>BHYT</th>
+							<th>Viện phí</th>
+							<th>Không thu được</th>
+							<th>Cấp cứu</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<!-- Thêm các hàng khác ở đây -->
+
+					</tbody>
+				</table>
+
+			</div>
+			<div class="phan_trang">
+				<div class="d-flex">
+					<label class="form-label" style="font-size:1rem !important;">Số bản ghi mỗi trang:</label>
+					<select id="pageSizeSelect" style="font-size:1rem !important;" class="form-select">
+						<option value="10">10</option>
+						<option value="20">20</option>
+						<option value="50">50</option>
+						<option value="100">100</option>
+					</select>
+				</div>
+				<div style="display:flex; align-items:center; ">
+					<nav aria-label="Page navigation">
+						<ul class ="pagination" id="pagination">
+
+						</ul>
+					</nav>
+					<div class="text-center" style="margin-left: 2px">
+						<span id="pageInfo"></span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	<!-- Bootstrap Datepicker JS -->
+	<script src="~/dist/lib/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" defer></script>
+	<script src="~/dist/lib/bootstrap-datepicker/dist/locales/bootstrap-datepicker.vi.min.js" defer></script>
+	<script src="~/dist/lib/toastr/build/toastr.min.js" defer></script>
+	<script src="~/dist/js/JS0403/JS0403TimeDate.js"></script>
+	@* <script src="~/dist/js/JS0403/main.js"></script> *@
+	<script src="~/dist/js/JS0403/phantrang.js"></script>
+	<script src="~/dist/js/JS0403/JS0403XuatExcel.js"></script>
+	<script src="~/dist/js/BienChung.js"></script>
+}
