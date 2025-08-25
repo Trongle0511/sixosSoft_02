@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using QuestPDF.Infrastructure;
 using SixOs_Soft_demo_01.Data;
-using SixOs_Soft_demo_01.Service.S0403;
 using SixOs_Soft_demo_01.Service.S0403.SI0403;
 using System.Globalization;
 using System.Text.Encodings.Web;
@@ -37,6 +37,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddHttpClient();
 
+// Cấu hình QuestPDF License
+QuestPDF.Settings.License = LicenseType.Community;
+
 // Cấu hình CultureInfo cho ứng dụng
 var cultureInfo = new CultureInfo("vi-VN");
 cultureInfo.DateTimeFormat.ShortDatePattern = "dd-MM-yyyy";
@@ -55,13 +58,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseSession();  // Sử dụng Session middleware
+app.UseSession();
 app.UseRouting();
 app.UseAuthorization();
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-});
+app.MapControllers();   // thêm dòng này
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

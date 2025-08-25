@@ -3,7 +3,7 @@
     public class HoatDongKhamDto
     {
         public int STT { get; set; }
-        public string tenDichVu { get; set; }
+        public string? tenDichVu { get; set; }
         public int TongSoLanKham { get; set; }
         public int YHCT_SoLanKham { get; set; }
         public int TE6Tuoi_SLK { get; set; }

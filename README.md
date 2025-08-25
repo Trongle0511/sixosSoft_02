@@ -1,1 +1,0 @@
-# sixosSoft_02

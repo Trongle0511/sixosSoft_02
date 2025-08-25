@@ -6,7 +6,7 @@ const rowsPerPage = 10;    // 10 dòng / trang
 // ==================== GỌI API ====================
 $("#btnFilter").on("click", function () {
     let tuNgay = $("#ngayTuNgay").val();
-    let denNgay = $("#denNgay").val();
+    let denNgay = $("#ngayDenNgay").val();
 
     // Request body
     let request = {

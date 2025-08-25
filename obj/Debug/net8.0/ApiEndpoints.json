@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SixOs_Soft_demo_01.Controllers.C0403.C0403_XuatBaoCaoKhamPDF",
+    "Method": "ExportPDF",
+    "RelativePath": "api/xuatbcpdf/exportpdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SixOs_Soft_demo_01.Models.M0403.DTO0403.ExportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

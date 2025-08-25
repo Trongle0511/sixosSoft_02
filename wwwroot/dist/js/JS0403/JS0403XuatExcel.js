@@ -1,10 +1,10 @@
-﻿$("#btnExportExcel").on("click", function () {
+﻿$("#btnExportExcelGoiKham").on("click", function () {
     if (allData.length === 0) {
         alert("Không có dữ liệu để xuất!");
         return;
     }
     let tuNgay = $("#ngayTuNgay").val();
-    let denNgay = $("#denNgay").val();
+    let denNgay = $("#ngayDenNgay").val();
 
     let request = {
         tuNgay: tuNgay,

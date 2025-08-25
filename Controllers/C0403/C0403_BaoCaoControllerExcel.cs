@@ -9,10 +9,6 @@ public class BaoCaoController : Controller
     [HttpPost]
     public IActionResult ExportExcel([FromBody] ExportRequest request)
     {
-        //if (data == null || data.Count == 0)
-        //{
-        //    return BadRequest("Không có dữ liệu để export");
-        //}
         if (request.Data == null || request.Data.Count == 0)
         {
             return BadRequest("Không có dữ liệu để export");
