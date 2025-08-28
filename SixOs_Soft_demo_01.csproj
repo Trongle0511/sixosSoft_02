@@ -16,6 +16,7 @@
 	<ItemGroup>
 		<Folder Include="wwwroot\dist\data\json\" />
 		<Folder Include="wwwroot\dist\lib\" />
+		<Folder Include="wwwroot\dist\img\" />
 	</ItemGroup>
 
 	<ItemGroup>

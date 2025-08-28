@@ -1,7 +1,32 @@
 ﻿// ==================== BIẾN GLOBAL ====================
-let allData = [];          // Lưu toàn bộ dữ liệu từ API
-let currentPage = 1;       // Trang hiện tại
-const rowsPerPage = 10;    // 10 dòng / trang
+let allData = [];
+let currentPage = 1;
+let rowsPerPage = 10;
+
+// ==================== LƯU VÀ LOAD PAGE SIZE ====================
+$(document).ready(function () {
+    // Lấy rowsPerPage từ localStorage khi load trang
+    let savedPageSize = localStorage.getItem("rowsPerPage");
+    if (savedPageSize) {
+        rowsPerPage = parseInt(savedPageSize);
+        $("#pageSizeSelect").val(rowsPerPage); // set lại select
+    }
+
+    // Render bảng lần đầu (nếu có dữ liệu cũ)
+    if (allData.length > 0) {
+        renderTable(allData);
+        renderPagination();
+    }
+
+    // Khi thay đổi rowsPerPage thì lưu vào localStorage
+    $("#pageSizeSelect").on("change", function () {
+        rowsPerPage = parseInt($(this).val());
+        localStorage.setItem("rowsPerPage", rowsPerPage); // lưu lại
+        currentPage = 1;
+        renderTable();
+        renderPagination();
+    });
+});
 
 // ==================== GỌI API ====================
 $("#btnFilter").on("click", function () {
@@ -32,9 +57,6 @@ $("#btnFilter").on("click", function () {
             } else {
                 console.error(response.message || "Lỗi khi tải dữ liệu");
             }
-            console.log("Data gửi sang Excel:", response.data);
-            console.log("Request body:", request);
-            console.log("Response:", response);
         },
         error: function (xhr, status, error) {
             console.error("Error:", error);
@@ -65,7 +87,7 @@ function renderTable() {
     pageData.forEach((item, index) => {
         tbody.append(`
             <tr>
-                <td>${index + 1}</td>
+                <td>${start + index + 1}</td>
                 <td class="dichvu">${item.tenDichVu || ""}</td>
                 <td>${item.tongSoLanKham || 0}</td>
                 <td>${item.yhcT_SoLanKham || 0}</td>

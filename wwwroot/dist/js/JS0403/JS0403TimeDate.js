@@ -82,7 +82,7 @@ $(document).ready(function () {
         return new Date(year, month - 1, day);
     }
 
-    function autoAdjustDates() {
+    function autoAdjustDates(source) {
         const tuNgayStr = $('#ngayTuNgay').val();
         const denNgayStr = $('#ngayDenNgay').val();
 
@@ -91,10 +91,21 @@ $(document).ready(function () {
                 const tuNgay = parseDate(tuNgayStr);
                 const denNgay = parseDate(denNgayStr);
 
-                if (tuNgay > denNgay) {
+                if (source === "tuNgay" && tuNgay > denNgay) {
+                    // Điều kiện 1: Click "Từ ngày" mà > "Đến ngày"
+                    $('#ngayDenNgay')
+                        .val(tuNgayStr)
+                        .datepicker('update', tuNgayStr)
+                        .addClass('highlight-adjust');
+
+                    setTimeout(() => $('#ngayDenNgay').removeClass('highlight-adjust'), 1000);
+                }
+
+                if (source === "denNgay" && denNgay < tuNgay) {
+                    // Điều kiện 2: Click "Đến ngày" mà < "Từ ngày"
                     $('#ngayTuNgay')
                         .val(denNgayStr)
-                        .datepicker('update', denNgayStr) // cập nhật luôn cho datepicker
+                        .datepicker('update', denNgayStr)
                         .addClass('highlight-adjust');
 
                     setTimeout(() => $('#ngayTuNgay').removeClass('highlight-adjust'), 1000);
@@ -104,6 +115,18 @@ $(document).ready(function () {
             }
         }
     }
+    $(document).ready(function () {
+        // Khi chọn Từ ngày
+        $('#ngayTuNgay').on('change', function () {
+            autoAdjustDates("tuNgay");
+        });
+
+        // Khi chọn Đến ngày
+        $('#ngayDenNgay').on('change', function () {
+            autoAdjustDates("denNgay");
+        });
+    });
+
 
 
     $('#ngayTuNgay, #ngayDenNgay').on('input change propertychange paste', function () {

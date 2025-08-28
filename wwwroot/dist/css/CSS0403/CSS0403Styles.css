@@ -1,43 +1,44 @@
-﻿
-.container_goiKham {
+﻿.container_goiKham {
     display: flex;
     justify-content: space-around;
 }
 
-    .container_goiKham.left {
-        display: block;
-        width: 14%;
-    }
+.container_goiKham.left {
+    display: block;
+    width: 14%;
+}
 
-    .container_goiKham.right {
-        width: 83%;
-        display: block;
-    }
+.container_goiKham.right {
+    width: 83%;
+    display: block;
+}
 
 
 
-    .container_goiKham.left .row {
-        font-size: 1rem;
-    }
+.container_goiKham.left .row {
+    font-size: 1rem;
+}
 
-        .container_goiKham.left .row button {
-            width: 100%;
-            font-size: 0.8rem;
-        }
+.container_goiKham.left .row button {
+    width: 100%;
+    font-size: 0.8rem;
+}
 
-        /* Container cho hai nút xuất file */
-        .container_goiKham.left .row.export-buttons {
-            display: flex;
-            font-size: 0.8rem;
-            gap: 8px; /* Khoảng cách giữa nút */
-        }
+/* Container cho hai nút xuất file */
+.container_goiKham.left .row.export-buttons {
+    display: flex;
+    font-size: 0.8rem;
+    gap: 8px;
+    /* Khoảng cách giữa nút */
+}
 
-            /* Mỗi nút chiếm 50% */
-            .container_goiKham.left .row.export-buttons button {
-                flex: 1;
-                padding: 8px;
-                font-size: 0.8rem;
-            }
+/* Mỗi nút chiếm 50% */
+.container_goiKham.left .row.export-buttons button {
+    flex: 1;
+    padding: 8px;
+    font-size: 0.8rem;
+}
+
 .form-label {
     margin: auto !important;
 }
@@ -47,37 +48,69 @@ label {
     font-weight: 600;
     margin: 5px 0 4px 0;
 }
-            /* css table */
+
 .table-wrapper {
     overflow-y: auto;
     overflow-x: auto;
     height: 68vh;
     -webkit-overflow-scrolling: touch;
-    /* Ẩn thanh scroll trên tất cả trình duyệt */
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE và Edge cũ */
+    /* Firefox */
+    scrollbar-width: thin;
+    /* mặc định */
+    -ms-overflow-style: auto;
+    /* IE */
 }
 
-    .table-wrapper::-webkit-scrollbar {
-        display: none; /* Chrome, Safari, Edge mới */
-    }
+/* Thanh cuộn chung (Chrome, Safari, Edge mới) */
+.table-wrapper::-webkit-scrollbar {
+    height: 8px;
+    /* chỉ áp dụng cho scrollbar ngang */
+    width: 0;
+    /* ẩn scrollbar dọc */
+}
+
+/* Scrollbar ngang */
+.table-wrapper::-webkit-scrollbar:horizontal {
+    height: 8px;
+    /* thanh ngang hiển thị */
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 4px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Firefox: ẩn scrollbar dọc */
+.table-wrapper {
+    scrollbar-width: thin;
+}
+
 
 .column-toggle-dropdown:hover .dropdown-menu {
     display: block;
 }
 
 .table-wrapper table {
-    border-collapse: separate; /* từ collapse sang separate */
+    border-collapse: separate;
+    /* từ collapse sang separate */
     border-spacing: 0;
     width: 100%;
-    min-width: 600px; /* Minimum width for tables */
+    min-width: 600px;
+    /* Minimum width for tables */
     table-layout: fixed;
 }
+
 .table-wrapper thead {
     position: sticky;
     top: 0;
-    z-index: 10; /* cao hơn td để không bị đè */
-    background-color: #f2f2f2; /* nền tiêu đề */
+    z-index: 10;
+    /* cao hơn td để không bị đè */
+    background-color: #f2f2f2;
+    /* nền tiêu đề */
     border-top: 1px solid #ccc;
 }
 
@@ -100,10 +133,12 @@ label {
 .table-wrapper td {
     font-size: 1rem;
 }
+
 /* thêm hover cho td màu xanh nhạt*/
 
 .table-wrapper tr:hover td {
-    background-color: #e6f7ff; /* Màu xanh nhạt */
+    background-color: #e6f7ff;
+    /* Màu xanh nhạt */
 }
 
 .table-wrapper th:first-child {
@@ -113,6 +148,7 @@ label {
 .table-wrapper th:last-child {
     border-right: 1px solid #ccc !important;
 }
+
 /* css ngày*/
 .datepicker {
     font-size: 0.9rem;
@@ -124,7 +160,7 @@ label {
     margin-left: 5px;
     z-index: 99999 !important;
     background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 input {
@@ -137,28 +173,32 @@ input {
     align-items: center;
 }
 
-    .input-group .form-control {
-        font-size: 1rem;
-        padding: 8px 12px;
-        height: 42px; /* Đặt cố định để khớp */
-    }
+.input-group .form-control {
+    font-size: 1rem;
+    padding: 8px 12px;
+    height: 42px;
+    /* Đặt cố định để khớp */
+}
 
 .input-group-text {
     font-size: 1rem;
     padding: 0 12px;
     display: flex;
-    align-items: center; /* Căn giữa dọc icon */
+    align-items: center;
+    /* Căn giữa dọc icon */
     justify-content: center;
-    height: 42px; /* Giống input */
+    height: 42px;
+    /* Giống input */
 }
 
-    .input-group-text i {
-        font-size: 1rem;
-    }
+.input-group-text i {
+    font-size: 1rem;
+}
 
 #btnFilter {
     margin: 8px 0 6px 0 !important;
 }
+
 /* Phân trang */
 .pagination {
     margin: 0;
@@ -192,6 +232,7 @@ input {
     display: inline-block;
     margin-left: 10px;
 }
+
 /* Giữ phân trang cố định ở dưới */
 .phan_trang {
     display: flex;
@@ -202,12 +243,13 @@ input {
     margin: 20px auto !important;
     font-size: 1rem;
     gap: 10px;
-    min-height: 50px; /* Chiều cao tối thiểu để không bị nhảy */
+    min-height: 50px;
+    /* Chiều cao tối thiểu để không bị nhảy */
 }
 
-    .phan_trang label {
-        margin-bottom: 0;
-    }
+.phan_trang label {
+    margin-bottom: 0;
+}
 
 .page-link:disabled {
     cursor: not-allowed;
@@ -222,16 +264,20 @@ input {
     transform: translate(-50%, -50%);
     z-index: 9999;
     /* Tăng kích thước spinner */
-    width: 100px; /* Chiều rộng */
-    height: 100px; /* Chiều cao */
+    width: 100px;
+    /* Chiều rộng */
+    height: 100px;
+    /* Chiều cao */
 }
 
-    /* Nếu dùng Bootstrap spinner */
-    #loadingSpinner .spinner-border {
-        width: 5rem; /* Tăng gấp 5 lần kích thước mặc định */
-        height: 5rem;
-        border-width: 0.5em; /* Độ dày viền */
-    }
+/* Nếu dùng Bootstrap spinner */
+#loadingSpinner .spinner-border {
+    width: 5rem;
+    /* Tăng gấp 5 lần kích thước mặc định */
+    height: 5rem;
+    border-width: 0.5em;
+    /* Độ dày viền */
+}
 
 
 /* Đảm bảo tất cả select đồng nhất */
@@ -245,5 +291,6 @@ input {
 
 /* Container chứa select */
 #selectContainer {
-    gap: 10px; /* Khoảng cách giữa các select */
+    gap: 10px;
+    /* Khoảng cách giữa các select */
 }
