@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "D:\\SixOs 01\\sixosSoft_02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\controllers\\c0403\\c0403_baocaocontrollerexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:controllers\\c0403\\c0403_baocaocontrollerexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\views\\v0403\\v0403bchdkhambenh\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:views\\v0403\\v0403bchdkhambenh\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\js\\js0403\\js0403timedate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\js\\js0403\\js0403timedate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\js\\js0403\\js0403_bchoatdongkham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\js\\js0403\\js0403_bchoatdongkham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\controllers\\c0403\\c0403_xuatbaocaokhampdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:controllers\\c0403\\c0403_xuatbaocaokhampdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\js\\js0403\\phantrang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\js\\js0403\\phantrang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\js\\js0403\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\js\\js0403\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\css\\css0403\\css0403styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\css\\css0403\\css0403styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\js\\js0403\\js0403xuatpdf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\js\\js0403\\js0403xuatpdf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\js\\js0403\\js0403xuatexcel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\js\\js0403\\js0403xuatexcel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\js\\js0403\\js0403xuatpdf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\js\\js0403\\js0403xuatpdf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\js\\js0403\\js0403timedate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\js\\js0403\\js0403timedate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\wwwroot\\dist\\css\\css0403\\css0403styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:wwwroot\\dist\\css\\css0403\\css0403styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\models\\m0403\\m0403bchoatdongkhamsto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:models\\m0403\\m0403bchoatdongkhamsto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\context\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:context\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\models\\m0403\\m0403_hoatdongkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:models\\m0403\\m0403_hoatdongkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\controllers\\c0403\\c0403_baocaocontrollerexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:controllers\\c0403\\c0403_baocaocontrollerexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|d:\\sixos 01\\sixossoft_02\\controllers\\c0403\\c0403_xuatbaocaokhampdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED0845D-2279-431D-B5EA-10F8798F9D8E}|SixOs_Soft_demo_01.csproj|solutionrelative:controllers\\c0403\\c0403_xuatbaocaokhampdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,23 +58,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "main.js",
-              "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\main.js",
-              "RelativeDocumentMoniker": "wwwroot\\dist\\js\\JS0403\\main.js",
-              "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\main.js",
-              "RelativeToolTip": "wwwroot\\dist\\js\\JS0403\\main.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-28T03:40:45.232Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:49:52.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "M0403_HoatDongKham.cs",
+              "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\Models\\M0403\\M0403_HoatDongKham.cs",
+              "RelativeDocumentMoniker": "Models\\M0403\\M0403_HoatDongKham.cs",
+              "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\Models\\M0403\\M0403_HoatDongKham.cs",
+              "RelativeToolTip": "Models\\M0403\\M0403_HoatDongKham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:49:42.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext .cs",
+              "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\Context\\AppDbContext .cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext .cs",
+              "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\Context\\AppDbContext .cs",
+              "RelativeToolTip": "Context\\AppDbContext .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:47:34.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "M0403BCHoatDongKhamSTO.cs",
+              "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\Models\\M0403\\M0403BCHoatDongKhamSTO.cs",
+              "RelativeDocumentMoniker": "Models\\M0403\\M0403BCHoatDongKhamSTO.cs",
+              "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\Models\\M0403\\M0403BCHoatDongKhamSTO.cs",
+              "RelativeToolTip": "Models\\M0403\\M0403BCHoatDongKhamSTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:47:26.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JS0403_BCHoatDongKham.js",
+              "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\JS0403_BCHoatDongKham.js",
+              "RelativeDocumentMoniker": "wwwroot\\dist\\js\\JS0403\\JS0403_BCHoatDongKham.js",
+              "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\JS0403_BCHoatDongKham.js",
+              "RelativeToolTip": "wwwroot\\dist\\js\\JS0403\\JS0403_BCHoatDongKham.js",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAuwJwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-28T03:40:45.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "JS0403TimeDate.js",
               "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\JS0403TimeDate.js",
               "RelativeDocumentMoniker": "wwwroot\\dist\\js\\JS0403\\JS0403TimeDate.js",
@@ -75,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "JS0403XuatExcel.js",
               "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\JS0403XuatExcel.js",
               "RelativeDocumentMoniker": "wwwroot\\dist\\js\\JS0403\\JS0403XuatExcel.js",
@@ -83,29 +145,18 @@
               "RelativeToolTip": "wwwroot\\dist\\js\\JS0403\\JS0403XuatExcel.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-26T19:42:27.127Z"
+              "WhenOpened": "2025-08-26T19:42:27.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "phantrang.js",
-              "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\phantrang.js",
-              "RelativeDocumentMoniker": "wwwroot\\dist\\js\\JS0403\\phantrang.js",
-              "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\phantrang.js",
-              "RelativeToolTip": "wwwroot\\dist\\js\\JS0403\\phantrang.js",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwDoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-25T20:54:30.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\Views\\V0403\\V0403bchdkhambenh\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\V0403\\V0403bchdkhambenh\\Index.cshtml",
               "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\Views\\V0403\\V0403bchdkhambenh\\Index.cshtml",
               "RelativeToolTip": "Views\\V0403\\V0403bchdkhambenh\\Index.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAJcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-25T20:55:33.136Z",
               "EditorCaption": ""
@@ -124,20 +175,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "C0403_BaoCaoControllerExcel.cs",
               "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\Controllers\\C0403\\C0403_BaoCaoControllerExcel.cs",
               "RelativeDocumentMoniker": "Controllers\\C0403\\C0403_BaoCaoControllerExcel.cs",
               "ToolTip": "D:\\SixOs 01\\sixosSoft_02\\Controllers\\C0403\\C0403_BaoCaoControllerExcel.cs",
               "RelativeToolTip": "Controllers\\C0403\\C0403_BaoCaoControllerExcel.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAowJsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAowJsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:05:20.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T19:05:20.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "C0403_XuatBaoCaoKhamPDF.cs",
               "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\Controllers\\C0403\\C0403_XuatBaoCaoKhamPDF.cs",
               "RelativeDocumentMoniker": "Controllers\\C0403\\C0403_XuatBaoCaoKhamPDF.cs",
@@ -149,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "JS0403XuatPDF.js",
               "DocumentMoniker": "D:\\SixOs 01\\sixosSoft_02\\wwwroot\\dist\\js\\JS0403\\JS0403XuatPDF.js",
               "RelativeDocumentMoniker": "wwwroot\\dist\\js\\JS0403\\JS0403XuatPDF.js",
@@ -157,7 +207,8 @@
               "RelativeToolTip": "wwwroot\\dist\\js\\JS0403\\JS0403XuatPDF.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-25T17:25:29.073Z"
+              "WhenOpened": "2025-08-25T17:25:29.073Z",
+              "EditorCaption": ""
             }
           ]
         }

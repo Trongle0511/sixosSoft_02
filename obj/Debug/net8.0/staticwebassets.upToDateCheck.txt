@@ -33,7 +33,6 @@ wwwroot\dist\js\JS0403\JS0403TimeDate.js
 wwwroot\dist\js\JS0403\JS0403XuatExcel.js
 wwwroot\dist\js\JS0403\JS0403XuatPDF.js
 wwwroot\dist\js\JS0403\main.js
-wwwroot\dist\js\JS0403\phantrang.js
 wwwroot\dist\lib\apexcharts\dist\apexcharts.amd.js
 wwwroot\dist\lib\apexcharts\dist\apexcharts.common.js
 wwwroot\dist\lib\apexcharts\dist\apexcharts.css
@@ -970,3 +969,4 @@ wwwroot\dist\lib\tom-select\dist\js\tom-select.popular.js.map
 wwwroot\dist\lib\tom-select\dist\js\tom-select.popular.min.js
 wwwroot\dist\lib\tom-select\dist\js\tom-select.popular.min.js.map
 wwwroot\favicon.ico
+wwwroot\dist\js\JS0403\phantrang.js

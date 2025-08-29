@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SixOs_Soft_demo_01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac5a3312a131150a90a5815759de9523d68839b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76ab9f1d1e6622fcfcb6bf83fde729cd77419c3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SixOs_Soft_demo_01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SixOs_Soft_demo_01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
